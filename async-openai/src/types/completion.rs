@@ -127,7 +127,7 @@ pub struct CreateCompletionResponse {
     pub system_fingerprint: Option<String>,
 
     /// The object type, which is always "text_completion"
-    pub object: String,
+    pub object: Option<String>,
     pub usage: Option<CompletionUsage>,
 }
 
